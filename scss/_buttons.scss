@@ -1,0 +1,16 @@
+/* ANY BUTTON STYLES GO HERE */
+
+.btn {
+    border-radius: $border-radius;
+    background-color: $color-one;
+    text-decoration: none;
+    font-size: 12pt;
+    font-weight: bold;
+    padding: 10px 20px;
+    color: $white;
+}
+
+.btn:hover, .btn:focus {
+    background-color: $color-two;
+    color: $white;
+}

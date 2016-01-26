@@ -23,4 +23,27 @@
         margin-bottom: 40px;
     }
     
+    .caregiver-closing-invitation {
+        
+        p, h5 {
+            text-align: left;
+        }
+        
+        h5 {
+            
+            font-weight: 700;
+        }
+        
+        img {
+            width: 100%;
+            height: auto;
+            border-radius: $border-radius;
+        }
+        
+        a.btn {
+            margin-top: 40px;
+        }
+        
+    }
+    
 }

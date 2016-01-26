@@ -51,6 +51,16 @@ p {
     color: white;
     margin-top: 30px;
     margin-bottom: 40px; }
+  #windermere-main-content .caregiver-closing-invitation p, #windermere-main-content .caregiver-closing-invitation h5 {
+    text-align: left; }
+  #windermere-main-content .caregiver-closing-invitation h5 {
+    font-weight: 700; }
+  #windermere-main-content .caregiver-closing-invitation img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px; }
+  #windermere-main-content .caregiver-closing-invitation a.btn {
+    margin-top: 40px; }
 
 /* Navbar Styles and Backgrounds */
 #nav-box {
@@ -111,3 +121,17 @@ p {
     #header-contact-info #header-social .fa-twitter:hover,
     #header-contact-info #header-social .fa-twitter:focus {
       color: #9cc1de; }
+
+/* ANY BUTTON STYLES GO HERE */
+.btn {
+  border-radius: 4px;
+  background-color: #144a80;
+  text-decoration: none;
+  font-size: 12pt;
+  font-weight: bold;
+  padding: 10px 20px;
+  color: white; }
+
+.btn:hover, .btn:focus {
+  background-color: #4f92c4;
+  color: white; }
