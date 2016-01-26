@@ -1,0 +1,26 @@
+/*  MAIN CONTENT STYLES */
+#windermere-main-content {
+    background-color: $white;
+    padding: 20px 0;
+    
+    h1 {
+        font-size: 34pt;
+        padding-bottom: 10px;
+    }
+    
+    #old-lady {
+        width: 100%;
+        border-radius: $border-radius;
+    }
+    
+    .blue-well {
+        border-radius: $border-radius;
+        background-color: $color-one;
+        font-size: 14pt;
+        padding: 16px;
+        color: $white;
+        margin-top: 30px;
+        margin-bottom: 40px;
+    }
+    
+}

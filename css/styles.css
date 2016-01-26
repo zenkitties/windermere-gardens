@@ -1,9 +1,113 @@
 @import url(https://fonts.googleapis.com/css?family=Alegreya+Sans);
+/* layout style changes */
 * {
   margin: 0;
   padding: 0;
   position: relative; }
 
 body {
-  font-family: "Alegreya Sans", sans-serif;
-  line-height: 1.6; }
+  font: 15pt "Alegreya Sans", sans-serif;
+  line-height: 1.6;
+  letter-spacing: 1px;
+  background-color: #ebedef;
+  color: #171717; }
+  body a {
+    color: white;
+    text-decoration: none; }
+  body a:hover, body a:focus {
+    text-decoration: none; }
+
+.blue {
+  color: #144a80; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #144a80; }
+
+p {
+  line-height: 1.5;
+  font-size: 12pt;
+  padding-bottom: 10px; }
+
+/*  MAIN CONTENT STYLES */
+#windermere-main-content {
+  background-color: white;
+  padding: 20px 0; }
+  #windermere-main-content h1 {
+    font-size: 34pt;
+    padding-bottom: 10px; }
+  #windermere-main-content #old-lady {
+    width: 100%;
+    border-radius: 4px; }
+  #windermere-main-content .blue-well {
+    border-radius: 4px;
+    background-color: #144a80;
+    font-size: 14pt;
+    padding: 16px;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 40px; }
+
+/* Navbar Styles and Backgrounds */
+#nav-box {
+  background: white url(../img/hero.jpg) center -270px no-repeat;
+  background-size: cover;
+  padding-top: 25px;
+  height: 270px;
+  font-size: 18pt;
+  text-transform: uppercase; }
+  #nav-box img#windermere-logo {
+    width: 65%; }
+  #nav-box .contact-info {
+    font-color: #171717;
+    text-transform: uppercase;
+    font-size: 20pt;
+    text-align: right; }
+    #nav-box .contact-info ul {
+      padding-top: 60px;
+      list-style-type: none;
+      font-weight: 900; }
+      #nav-box .contact-info ul li {
+        line-height: 1.2em; }
+  #nav-box .windermere-navbar {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.6);
+    margin-top: 5px; }
+    #nav-box .windermere-navbar ul {
+      margin-top: 17px;
+      font-size: 12pt;
+      font-weight: 600;
+      list-style-type: none;
+      -webkit-padding-start: 0; }
+      #nav-box .windermere-navbar ul li {
+        display: inline-block;
+        padding: 0 20px; }
+      #nav-box .windermere-navbar ul a {
+        color: #171717; }
+
+/* HEADING STYLES */
+#header-contact-info {
+  height: 85px;
+  background-color: #144a80;
+  border-bottom: 10px solid #4f92c4;
+  color: white; }
+  #header-contact-info #header-phone {
+    text-align: right;
+    padding: 18px 0; }
+  #header-contact-info #header-social {
+    padding: 16px 0; }
+    #header-contact-info #header-social ul {
+      list-style-type: none; }
+      #header-contact-info #header-social ul li {
+        padding-right: 10px;
+        display: inline-block; }
+    #header-contact-info #header-social .fa-facebook-official:hover,
+    #header-contact-info #header-social .fa-facebook-official:focus {
+      color: #1c69b5; }
+    #header-contact-info #header-social .fa-twitter:hover,
+    #header-contact-info #header-social .fa-twitter:focus {
+      color: #9cc1de; }

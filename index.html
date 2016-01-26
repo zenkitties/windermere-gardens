@@ -8,16 +8,66 @@
     <meta name="author" content="Nick Myers" />
     <meta name="description" content="Web Developer Challenge for Edit LLC." />
     <!-- stylesheets -->
-    <link rel="stylesheet" href="/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/css/font-awesome.min.css">
-    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-   <h1>Hey Alex, welcome to my challenge! Enjoy the Progress! :)</h1>
    <div class="container">
-       <h2>Starting bootstrap off right with a container.</h2>
-   </div>
+       <div id="header-contact-info" class="row">
+          <div id="header-phone" class="col-md-3">
+              Call today: <strong>(678)878 - 3205</strong>
+          </div><!--/#header phone -->
+          <div id="header-social" class="col-md-offset-7 col-md-1 text-center">
+              <ul>
+                  <li><a href="https://www.facebook.com/Windermere-Gardens-In-Home-Care-1483466168626008/" target="_blank"><i class="fa fa-lg fa-facebook-official"></i></a></li>
+                  <li><a href="https://twitter.com/windermerecare1?lang=en" target="_blank"><i class="fa fa-lg fa-twitter"></i></a></li>
+              </ul>
+          </div><!--/#header-social -->
+       </div><!--/.row closure-->
+       <div id="nav-box" class="row">
+          <div class="col-md-5 col-md-offset-1">
+              <a href="#"><img id="windermere-logo" src="img/logo1.png" alt="windermere gardens home care" /></a>
+          </div>
+          <div class="col-md-5 contact-info">
+             <ul>
+                 <li>Call today for a complimentary</li>
+                 <li>In-home assessment</li>
+                 <li><span class="blue">(678) 878-3205</span></li>
+             </ul>
+          </div>
+          <nav class="container navbar navbar-nav windermere-navbar">
+             <ul>
+                 <li><a href="#">Home</a></li>
+                 <li><a href="#">About Us</a></li>
+                 <li><a href="#">Testimonials</a></li>
+                 <li><a href="#">Services</a></li>
+                 <li><a href="#">Careers</a></li>
+                 <li><a href="#">Blog</a></li>
+             </ul>
+          </nav><!--/.windermere-navbar -->
+       </div><!--/.row closure -->
+       <div class="row">
+           <div id="windermere-main-content" class="container">
+               <section class="col-md-7 col-md-offset-1 left-side-info text-center">
+                   <h1><strong>Welcome to Windermere Gardens In-Home Care.</strong></h1>
+                   <p>Welcome to Windermere Gardens In – Home Care. As a premiere in-home care provider, we offer exceptional non – medical services for adults, elderly and pediatric clients in the comfort of their own homes. It is in their own homes where our loved ones maintain their dignity and strength and feel the greatest sense of purpose. Our staff takes enormous pride in providing innovative and personalized services to our beloved senior citizen population.</p>
+                   <p>Windermere Gardens provides hourly, overnight and 24 hour care that is tailored to the individual needs of the client. Whether at home, in an assisted living facility, nursing home, or hospital, we will provide care wherever care is needed.</p>
+                   <p>Please contact us and let us know how Windermere Gardens can be of service to you by calling (678) 878-3205</p>
+                   <p><span class="blue"><strong>Areas We Serve:</strong>Gwinnett, Dekalb, Fulton, Forsyth, Fayette, Cobb, Douglas, Henry, Rockdale and Clayton</span></p>
+                   <img id="old-lady" src="img/old-lady-smiling.jpg" alt="some old lady smiling">
+                   <div class="blue-well text-center">
+                       Windermere Gardens offers a great alternative to nursing homes and expensive private duty nurses with affordable live-in personal care.
+                   </div>
+               </section><!--/.left-side-info -->
+               <section class="col-md-3 right-side-info">
+               </section><!--/.right-side-info -->
+           </div>
+       </div>
+       
+       
+   </div><!--/.container -->
     <!--/jQuery scripts -->
     <style src="/js/jquery-1.12.0.min.js"></style>
     <!--/Bootstrap scripts -->

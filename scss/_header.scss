@@ -1,0 +1,37 @@
+/* HEADING STYLES */
+
+#header-contact-info {
+    height: 85px;
+    background-color: $color-one;
+    border-bottom: 10px solid $color-two;
+    color: $white;
+    
+    #header-phone {
+        text-align: right;
+        padding: 18px 0;
+    }
+    
+    #header-social {
+        padding: 16px 0;
+
+        
+        ul {
+            list-style-type: none;
+            
+            li {
+                padding-right: 10px;
+                display: inline-block;
+            }
+        }
+        
+        .fa-facebook-official:hover,
+        .fa-facebook-official:focus {
+            color: lighten($color-one, 12%);
+        }
+        
+        .fa-twitter:hover, 
+        .fa-twitter:focus {
+            color: lighten($color-two, 20%);
+        }
+    }
+}

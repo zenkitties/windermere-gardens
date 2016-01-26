@@ -1,0 +1,55 @@
+/* Navbar Styles and Backgrounds */
+
+#nav-box {
+    background: $white url(../img/hero.jpg) center -270px no-repeat;
+    background-size: cover;
+    padding-top: 25px;
+    height: 270px;
+    font-size: 18pt;
+    text-transform: uppercase;
+    
+    img#windermere-logo {
+        width: 65%;
+    }
+    
+    .contact-info {
+        font-color: $black;
+        text-transform: uppercase;
+        font-size: 20pt;
+        text-align: right;
+        
+        ul {
+            padding-top: 60px;
+            list-style-type: none;
+            font-weight: 900;
+            
+            li {
+               line-height: 1.2em; 
+            }
+        }
+    }
+    
+    .windermere-navbar {
+        text-align: center;
+        background-color: transparentize($white, .40);
+        margin-top: 5px;
+        
+        ul {
+            margin-top: 17px;
+            font-size: 12pt;
+            font-weight: 600;
+            list-style-type: none;
+            -webkit-padding-start: 0;
+            
+            li {
+                display: inline-block;
+                padding: 0 20px;
+            }
+            
+            a {
+                color: $black;
+            }
+        }
+    }
+    
+}
