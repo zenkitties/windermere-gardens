@@ -14,3 +14,20 @@
     background-color: $color-two;
     color: $white;
 }
+
+.btn-right-nav {
+    font-size: 24px;
+    padding: 5px 20px;
+    display: block;
+    background-color: $color-one;
+    color: $white;
+    font-weight: normal;
+    text-align: center;
+    border-radius: $border-radius;
+}
+
+.btn-right-nav:hover, 
+.btn.right-nav:focus {
+    color: $white;
+    background-color: $color-two;
+}

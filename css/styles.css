@@ -20,6 +20,9 @@ body {
 .blue {
   color: #144a80; }
 
+.red {
+  color: red; }
+
 h1,
 h2,
 h3,
@@ -61,6 +64,25 @@ p {
     border-radius: 4px; }
   #windermere-main-content .caregiver-closing-invitation a.btn {
     margin-top: 40px; }
+  #windermere-main-content .right-side-info {
+    padding-top: 40px; }
+    #windermere-main-content .right-side-info ul {
+      text-align: center;
+      list-style-type: none;
+      margin-bottom: 40px; }
+      #windermere-main-content .right-side-info ul li {
+        margin-bottom: 5px; }
+    #windermere-main-content .right-side-info h4 {
+      font-size: 28px;
+      text-align: center; }
+    #windermere-main-content .right-side-info .fine-print {
+      font-size: 13px;
+      text-align: center; }
+      #windermere-main-content .right-side-info .fine-print a {
+        color: #144a80; }
+      #windermere-main-content .right-side-info .fine-print a:hover,
+      #windermere-main-content .right-side-info .fine-print a:focus {
+        color: #4f92c4; }
 
 /* Navbar Styles and Backgrounds */
 #nav-box {
@@ -122,6 +144,12 @@ p {
     #header-contact-info #header-social .fa-twitter:focus {
       color: #9cc1de; }
 
+form {
+  font-weight: bold; }
+  form input {
+    background-color: #ebedef;
+    color: white; }
+
 /* ANY BUTTON STYLES GO HERE */
 .btn {
   border-radius: 4px;
@@ -135,3 +163,18 @@ p {
 .btn:hover, .btn:focus {
   background-color: #4f92c4;
   color: white; }
+
+.btn-right-nav {
+  font-size: 24px;
+  padding: 5px 20px;
+  display: block;
+  background-color: #144a80;
+  color: white;
+  font-weight: normal;
+  text-align: center;
+  border-radius: 4px; }
+
+.btn-right-nav:hover,
+.btn.right-nav:focus {
+  color: white;
+  background-color: #4f92c4; }

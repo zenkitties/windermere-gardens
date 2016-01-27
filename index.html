@@ -73,18 +73,43 @@
                    <div class="col-md-6 text-center">
                        <img src="img/Winderemere-Brochure-master-Outside2.jpg" alt="old man in a wheelchair" >
                    </div><!--/.col-md-3 -->
-                   
-                   
                    </section><!--/.caregiver-closing-inviation -->
                </section><!--/.left-side-info -->
                <section class="col-md-3 right-side-info">
-                   
+                   <ul>
+                       <li><a href="#" class="btn-right-nav">Personal Care</a></li>
+                       <li><a href="#" class="btn-right-nav">Companion Care</a></li>
+                       <li><a href="#" class="btn-right-nav">Pediatric Care</a></li>
+                   </ul>
+                   <h4><strong>Let Us Serve You</strong></h4>
+                   <p class="fine-print">Fields marked with an <span class="red">*</span> are required<br />
+                    Job Seekers Please Do Not Use This Form.
+                    Please go to the <strong><a href="#">CAREERS</a></strong> page to inquire
+                    about job availability. Thank you.</p>
+                    <form name="contactForm" method="POST">
+                        <div>
+                            <label for="fullName">Full Name<span class="red">*</span></label>
+                            <input name="fullName" type="text" class="form-control" id="full_name" placeholder="Cloud Strife" required/>
+                        </div>
+                        <div class="form-group">
+                            <label for="city">City<span class="red">*</span></label>
+                            <input name="city" type="text" class="form-control" id="city" placeholder="Fresno" required/>
+                        </div>
+                        <div class="form-group">
+                            <label for="phoneNumber">Phone</label>
+                            <input name="phoneNumber" type="tel" class="form-control" id="phone_number" placeholder="(559)555-5555" />
+                        </div>
+                        <div class="form-group">
+                            <label for="eMail">Email<span class="red">*</span></label>
+                            <input name="eMail" type="email" class="form-control" id="email" placeholder="cloud@shinra.com" required/>
+                        </div>
+                    </form>
                </section><!--/.right-side-info -->
-           </div>
-       </div>
+           </div><!--/#windmere-main-content .container -->
+       </div><!--.row closure -->
        
        
-   </div><!--/.container -->
+   </div><!--/.container (the whole container) -->
     <!--/jQuery scripts -->
     <style src="/js/jquery-1.12.0.min.js"></style>
     <!--/Bootstrap scripts -->

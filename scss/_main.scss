@@ -43,7 +43,40 @@
         a.btn {
             margin-top: 40px;
         }
+    }
+    
+    .right-side-info {
+        padding-top: 40px;
         
+        ul {
+            text-align: center;
+            list-style-type: none;
+            margin-bottom: 40px;
+            
+            li {
+                margin-bottom: 5px;
+            }
+        }
+        
+        h4 {
+            font-size: 28px;
+            text-align: center;
+            
+        }
+        
+        .fine-print {
+            font-size: 13px;
+            text-align: center;
+            
+            a {
+                color: $color-one;
+            }
+            
+            a:hover,
+            a:focus {
+                color: $color-two;
+            }
+        }
     }
     
 }
