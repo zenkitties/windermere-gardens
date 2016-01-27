@@ -28,7 +28,7 @@
              </div><!--/#header-social --> 
          </div><!--/.container -->
        </div><!--/.row closure-->
-        <div id="nav-box" class="row">
+       <div id="nav-box" class="row">
             <div class="container">
                 <div class="col-md-5 col-md-offset-1">
                     <a href="#"><img id="windermere-logo" src="img/logo1.png" alt="windermere gardens home care" /></a>
@@ -87,26 +87,49 @@
                     Please go to the <strong><a href="#">CAREERS</a></strong> page to inquire
                     about job availability. Thank you.</p>
                     <form name="contactForm" method="POST">
-                        <div>
-                            <label for="fullName">Full Name<span class="red">*</span></label>
-                            <input name="fullName" type="text" class="form-control" id="full_name" placeholder="Cloud Strife" required/>
+                        <div class="form-group fg-padding">
+                            <label for="fullName" class="col-xs-6">Full Name <span class="red">*</span></label>
+                            <input name="fullName" type="text" class="col-xs-6" id="full_name" required/>
+                        </div>
+                        <div class="form-group fg-padding">
+                            <label for="city" class="col-xs-6">City <span class="red">*</span></label>
+                            <input name="city" type="text" class="col-xs-6" id="city" required/>
+                        </div>
+                        <div class="form-group fg-padding">
+                            <label for="phoneNumber" class="col-xs-6">Phone</label>
+                            <input name="phoneNumber" type="tel" class="col-xs-6" id="phone_number" />
+                        </div>
+                        <div class="form-group fg-padding">
+                            <label for="eMail" class="col-xs-6">Email <span class="red">*</span></label>
+                            <input name="eMail" type="email" class="col-xs-6" id="email" required/>
                         </div>
                         <div class="form-group">
-                            <label for="city">City<span class="red">*</span></label>
-                            <input name="city" type="text" class="form-control" id="city" placeholder="Fresno" required/>
+                            <textarea name="comments" rows="8" id="form-comments" placeholder="Message*"></textarea>
                         </div>
-                        <div class="form-group">
-                            <label for="phoneNumber">Phone</label>
-                            <input name="phoneNumber" type="tel" class="form-control" id="phone_number" placeholder="(559)555-5555" />
+                        <div class="form-group text-center">
+                            <a class="btn-submit" href="#" type="submit">Submit</a>
                         </div>
-                        <div class="form-group">
-                            <label for="eMail">Email<span class="red">*</span></label>
-                            <input name="eMail" type="email" class="form-control" id="email" placeholder="cloud@shinra.com" required/>
-                        </div>
-                    </form>
+                    </form><!--/.forms -->
+                    <ul id="social-network">
+                        <li><a href="https://www.facebook.com/Windermere-Gardens-In-Home-Care-1483466168626008/"><img src="img/default_facebook.png" alt="facebook social networking"></a></li>
+                        <li><a href="https://twitter.com/windermerecare1?lang=en"><img src="img/default_twitter.png" alt="twitter social network"></a></li>
+                    </ul>
                </section><!--/.right-side-info -->
            </div><!--/#windmere-main-content .container -->
        </div><!--.row closure -->
+       <footer id="footer" class="row">
+           <div class="container">
+              <section class="col-xs-12 col-md-4">
+                  <h4>Navigation</h4>
+              </section>
+              <section class="col-xs-12 col-md-4">
+                  <h4>Recent Posts</h4>
+              </section>
+              <section class="col-xs-12 col-md-4">
+                  <h4>Testimonials</h4>
+              </section>
+           </div>
+       </footer><!--/.row of the footer -->
        
        
    </div><!--/.container (the whole container) -->

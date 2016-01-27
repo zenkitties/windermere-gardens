@@ -77,6 +77,28 @@
                 color: $color-two;
             }
         }
+        
+        #social-network {
+            margin-top: 30px;
+            margin-left: 45%;
+            list-style-type: none;
+            
+            li {
+                float: left;
+                margin: 10px 4px;
+            }
+            
+            img {
+                opacity: 0.50;
+                height: 40px;
+                width: auto;
+                transition: all 250ms ease-in-out;
+            }
+            
+            img:hover {
+                opacity: 1;
+            }
+        }
     }
     
 }

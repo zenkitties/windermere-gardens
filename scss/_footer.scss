@@ -1,0 +1,18 @@
+/* FOOTER STYLES */
+
+footer {
+    background-color: $color-one;
+    min-height: 400px;
+    color: $white;
+    
+    section {
+        margin: 40px auto 40px auto;
+    }
+    
+    h4 {
+        font-size: 24px;
+        font-weight: bold;
+        text-align: center;
+        color: $white;
+    }
+}

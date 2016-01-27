@@ -31,3 +31,19 @@
     color: $white;
     background-color: $color-two;
 }
+
+a.btn-submit {
+    border-radius: $border-radius;
+    background-color: $color-one;
+    font-size: 11pt;
+    font-weight: 400;
+    padding: 12px 60px;
+    margin: 20px 0;
+}
+
+a.btn-submit:hover,
+a.btn-submit:focus {
+    background-color: $color-two;
+    color: $white;
+}
+
