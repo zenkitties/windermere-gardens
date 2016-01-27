@@ -121,11 +121,10 @@ p {
         line-height: 1.2em; }
   #nav-box .windermere-navbar {
     text-align: center;
-    background-color: rgba(255, 255, 255, 0.6);
     margin-top: 10px; }
     #nav-box .windermere-navbar ul {
       margin-top: 17px;
-      font-size: 12pt;
+      font-size: 10pt;
       font-weight: 600;
       list-style-type: none;
       -webkit-padding-start: 0; }
@@ -193,6 +192,21 @@ footer {
     font-weight: bold;
     text-align: center;
     color: white; }
+  footer .footer-menu-categories ul {
+    margin-left: 90px;
+    list-style-type: none;
+    text-align: left; }
+    footer .footer-menu-categories ul li a {
+      color: white;
+      font-weight: bold;
+      font-size: 10pt; }
+    footer .footer-menu-categories ul li a:hover,
+    footer .footer-menu-categories ul li a:focus {
+      color: #4f92c4; }
+  footer ul.footer-submenu {
+    margin-left: 30px; }
+    footer ul.footer-submenu li::before {
+      content: "- "; }
 
 /* ANY BUTTON STYLES GO HERE */
 .btn {
