@@ -16,21 +16,28 @@ footer {
         color: $white;
     }
     
+    ul {
+        list-style-type: none;
+        text-align: left;
+        
+        li a {
+            color: $white;
+            font-size: 10pt;
+            font-weight: bold;
+        }
+        
+        li a:hover,
+        li a:focus {
+            color: $color-two;
+        }
+    }
+    
     .footer-menu-categories {
         ul {
             margin-left: 90px;
-            list-style-type: none;
-            text-align: left;
             
             li a {
-                color: $white;
                 font-weight: bold;
-                font-size: 10pt;
-            }
-            
-            li a:hover, 
-            li a:focus {
-                color: $color-two;
             }
         }
     }
