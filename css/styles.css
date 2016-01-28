@@ -123,16 +123,38 @@ p {
     text-align: center;
     margin-top: 10px; }
     #nav-box .windermere-navbar ul {
-      margin-top: 17px;
+      /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+99&0+0,0.6+40,0.6+62,0+100 */
+      background: -moz-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.6) 40%, rgba(255, 255, 255, 0.6) 62%, rgba(255, 255, 255, 0.02) 99%, rgba(255, 255, 255, 0) 100%);
+      /* FF3.6-15 */
+      background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.6) 40%, rgba(255, 255, 255, 0.6) 62%, rgba(255, 255, 255, 0.02) 99%, rgba(255, 255, 255, 0) 100%);
+      /* Chrome10-25,Safari5.1-6 */
+      background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.6) 40%, rgba(255, 255, 255, 0.6) 62%, rgba(255, 255, 255, 0.02) 99%, rgba(255, 255, 255, 0) 100%);
+      /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#00ffffff',GradientType=1 );
+      /* IE6-9 */
+      padding: 9px 16px;
+      margin-top: 15px;
       font-size: 10pt;
-      font-weight: 600;
+      font-weight: 700;
       list-style-type: none;
       -webkit-padding-start: 0; }
       #nav-box .windermere-navbar ul li {
-        display: inline-block;
-        padding: 0 20px; }
+        display: inline-block; }
+      #nav-box .windermere-navbar ul ul#services-sub-menu li {
+        float: none;
+        background-color: #144a80;
+        color: white; }
+      #nav-box .windermere-navbar ul .fa-chevron-down {
+        color: #4f92c4; }
+      #nav-box .windermere-navbar ul a#service-dropdown {
+        padding-right: 20px; }
       #nav-box .windermere-navbar ul a {
-        color: #171717; }
+        color: #171717;
+        padding: 11px 18px; }
+      #nav-box .windermere-navbar ul a:hover,
+      #nav-box .windermere-navbar ul a:focus {
+        background-color: #144a80;
+        color: white; }
 
 /* HEADING STYLES */
 #header-contact-info {
@@ -212,6 +234,12 @@ footer {
       content: "- "; }
   footer .footer-testimonials p {
     font-size: 10pt; }
+  footer .footer-copyrighting {
+    height: 50px; }
+    footer .footer-copyrighting ul li {
+      display: inline-block;
+      float: left;
+      padding: 0 10px; }
 
 /* all styles associated with the testimonial in the footer */
 #slider {

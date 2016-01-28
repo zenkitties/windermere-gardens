@@ -32,21 +32,49 @@
     .windermere-navbar {
         text-align: center;
         margin-top: 10px;
-        
         ul {
-            margin-top: 17px;
+           /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+99&0+0,0.6+40,0.6+62,0+100 */
+            background: -moz-linear-gradient(left,  hsla(0,0%,100%,0) 0%, hsla(0,0%,100%,0.6) 40%, hsla(0,0%,100%,0.6) 62%, hsla(0,0%,100%,0.02) 99%, hsla(0,0%,100%,0) 100%); /* FF3.6-15 */
+            background: -webkit-linear-gradient(left,  hsla(0,0%,100%,0) 0%,hsla(0,0%,100%,0.6) 40%,hsla(0,0%,100%,0.6) 62%,hsla(0,0%,100%,0.02) 99%,hsla(0,0%,100%,0) 100%); /* Chrome10-25,Safari5.1-6 */
+            background: linear-gradient(to right,  hsla(0,0%,100%,0) 0%,hsla(0,0%,100%,0.6) 40%,hsla(0,0%,100%,0.6) 62%,hsla(0,0%,100%,0.02) 99%,hsla(0,0%,100%,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#00ffffff',GradientType=1 ); /* IE6-9 */
+            padding: 9px 16px;
+            margin-top: 15px;
             font-size: 10pt;
-            font-weight: 600;
+            font-weight: 700;
             list-style-type: none;
             -webkit-padding-start: 0;
             
             li {
-                display: inline-block;
-                padding: 0 20px;
+                display: inline-block;   
+            }
+            
+            ul#services-sub-menu {
+                li {
+                    float: none;
+                    background-color: $color-one;
+                    color: $white;
+                }
+                
+            }
+            
+            .fa-chevron-down {
+                color: $color-two; 
+            }
+            
+            a#service-dropdown {
+                padding-right: 20px;
             }
             
             a {
                 color: $black;
+                padding: 11px 18px;
+            }
+            
+            a:hover,
+            a:focus {
+                background-color: $color-one;
+                color: $white;
             }
         }
     }

@@ -56,4 +56,16 @@ footer {
         }
         
     }
+    
+    .footer-copyrighting {
+        height: 50px;
+        
+        ul {
+            li {
+                display: inline-block;
+                float: left;
+                padding: 0 10px;
+            }
+        }
+    }
 }
