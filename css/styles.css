@@ -56,11 +56,15 @@ p {
     margin-bottom: 40px; }
   #windermere-main-content .caregiver-closing-invitation p, #windermere-main-content .caregiver-closing-invitation h5 {
     text-align: left; }
+  #windermere-main-content .caregiver-closing-invitation p {
+    padding-right: 20px; }
   #windermere-main-content .caregiver-closing-invitation h5 {
     font-weight: 700; }
   #windermere-main-content .caregiver-closing-invitation img {
-    width: 100%;
-    height: auto;
+    width: auto;
+    height: 378px;
+    float: right;
+    margin-left: 20px;
     border-radius: 4px; }
   #windermere-main-content .caregiver-closing-invitation a.btn {
     margin-top: 40px; }
@@ -103,14 +107,15 @@ p {
   background: white url(../img/hero.jpg) center -270px no-repeat;
   background-size: cover;
   padding-top: 25px;
-  height: 270px;
+  height: 290px;
   font-size: 18pt;
   text-transform: uppercase; }
   #nav-box img#windermere-logo {
-    width: 65%; }
+    width: 300px; }
   #nav-box .contact-info {
     font-color: #171717;
     text-transform: uppercase;
+    font-weight: bold;
     font-size: 20pt;
     text-align: right; }
     #nav-box .contact-info ul {
@@ -131,7 +136,7 @@ p {
       filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#00ffffff',GradientType=1 );
       /* IE6-9 */
       padding: 9px 16px;
-      margin-top: 25px;
+      margin-top: 34px;
       font-size: 12pt;
       font-weight: 700;
       list-style-type: none;
@@ -169,13 +174,14 @@ p {
 
 /* HEADING STYLES */
 #header-contact-info {
-  height: 85px;
+  min-height: 85px;
   background-color: #144a80;
   border-bottom: 10px solid #4f92c4;
   color: white; }
   #header-contact-info #header-phone {
     text-align: right;
-    padding: 18px 0; }
+    padding: 18px 0;
+    margin-left: 40px; }
   #header-contact-info #header-social {
     padding: 16px 0; }
     #header-contact-info #header-social ul {
@@ -261,6 +267,58 @@ footer {
   padding: 3px;
   line-height: 1.4;
   border-radius: 4px; }
+
+/* MEDIA QUERIES FOR MOBILE DEVELOPMENT */
+/* MEDIA QUERIES FOR THE SMALLEST OF DEVICES */
+@media only screen and (max-width: 768px) {
+  #header-contact-info #header-phone {
+    text-align: center; }
+  #nav-box {
+    background: white url(../img/hero.jpg) center center no-repeat;
+    background-size: cover;
+    height: 400px; }
+    #nav-box img#windermere-logo {
+      width: 300px;
+      margin: 0 auto;
+      padding: 0; }
+    #nav-box .contact-info {
+      font-weight: bold;
+      text-align: center;
+      background-color: rgba(255, 255, 255, 0.3);
+      border-radius: 4px;
+      margin-top: 10px; }
+      #nav-box .contact-info ul {
+        padding-top: 0; }
+  .left-side-info {
+    padding: 15px; }
+  .caregiver-closing-invitation img {
+    float: none;
+    height: 378px;
+    width: auto;
+    margin: 0 auto; }
+  .footer-copyrighting ul li {
+    float: none;
+    padding: 10px 0; } }
+
+/*MEDIA QUERIES FOR THE SMALL DEVICES */
+@media only screen and (max-width: 992px) {
+  #nav-box {
+    background: white url(../img/hero.jpg) center center no-repeat;
+    background-size: cover;
+    height: 340px; }
+    #nav-box img#windermere-logo {
+      width: 300;
+      height: auto;
+      margin: 0 auto; }
+    #nav-box .contact-info {
+      font-weight: bold;
+      text-align: center;
+      background-color: rgba(255, 255, 255, 0.3);
+      border-radius: 4px;
+      margin-top: 10px;
+      padding-right: 40px; }
+      #nav-box .contact-info ul {
+        padding-top: 0; } }
 
 /* ANY BUTTON STYLES GO HERE */
 .btn {

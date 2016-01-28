@@ -1,7 +1,7 @@
 /* HEADING STYLES */
 
 #header-contact-info {
-    height: 85px;
+    min-height: 85px;
     background-color: $color-one;
     border-bottom: 10px solid $color-two;
     color: $white;
@@ -9,6 +9,7 @@
     #header-phone {
         text-align: right;
         padding: 18px 0;
+        margin-left: 40px;
     }
     
     #header-social {

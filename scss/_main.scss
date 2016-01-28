@@ -29,14 +29,20 @@
             text-align: left;
         }
         
+        p {
+            padding-right: 20px;
+        }
+        
         h5 {
             
             font-weight: 700;
         }
         
         img {
-            width: 100%;
-            height: auto;
+            width: auto;
+            height: 378px;
+            float: right;
+            margin-left: 20px;
             border-radius: $border-radius;
         }
         

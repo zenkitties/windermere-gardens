@@ -4,17 +4,18 @@
     background: $white url(../img/hero.jpg) center -270px no-repeat;
     background-size: cover;
     padding-top: 25px;
-    height: 270px;
+    height: 290px;
     font-size: 18pt;
     text-transform: uppercase;
     
     img#windermere-logo {
-        width: 65%;
+        width: 300px;
     }
     
     .contact-info {
         font-color: $black;
         text-transform: uppercase;
+        font-weight: bold;
         font-size: 20pt;
         text-align: right;
         
@@ -37,7 +38,7 @@
             background: linear-gradient(to right,  hsla(0,0%,100%,0) 0%,hsla(0,0%,100%,0.6) 40%,hsla(0,0%,100%,0.6) 62%,hsla(0,0%,100%,0.02) 99%,hsla(0,0%,100%,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
             filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#00ffffff',GradientType=1 ); /* IE6-9 */
             padding: 9px 16px;
-            margin-top: 25px;
+            margin-top: 34px;
             font-size: 12pt;
             font-weight: 700;
             list-style-type: none;
