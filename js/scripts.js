@@ -44,5 +44,13 @@ $(document).ready(function(){
         $('.active').fadeIn(speed);
     }
     
+    // Mobile Menu Code To show Navbar
+    $('#drop-down-icon').on('click', function(){
+        $('#main-mobile-navbar').fadeToggle(400);
+    });
+    
+    $('#mobile-service-dropdown').on('click', function(){
+        $('#services-sub-menu-mobile').fadeToggle(400);
+    });
     
 });

@@ -3,8 +3,6 @@
 /* MEDIA QUERIES FOR THE SMALLEST OF DEVICES */
 @media only screen and (max-width: 768px) {
     
-    
-    
     #header-contact-info {
     
         #header-phone {
@@ -15,7 +13,7 @@
     #nav-box {
         background: $white url(../img/hero.jpg) center center no-repeat;
         background-size: cover;
-        height: 400px;
+        min-height: 400px;
         
         img#windermere-logo {
             width: 300px;
@@ -37,6 +35,10 @@
         
     }
     
+    #windermere-main-content {
+        margin-top: 0;
+    }
+    
     .left-side-info {
         padding: 15px;
         
@@ -47,7 +49,7 @@
             float: none;
             height: 378px;
             width: auto;
-            margin: 0 auto;
+            margin: 0 auto 10px auto;
         }
     }
     
@@ -72,9 +74,13 @@
         height: 340px;
         
         img#windermere-logo {
-            width: 300;
+            width: 300px;
             height: auto;
             margin: 0 auto;
+        }
+        
+        #windermere-main-content {
+        margin-top: 12px;
         }
         
         .contact-info {
@@ -91,5 +97,4 @@
         }
         
     }
-    
 }

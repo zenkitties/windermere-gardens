@@ -15,6 +15,33 @@
 </head>
 <body>
    <div class="container">
+      <!-- THIS IS THE MOBILE MENU. ALL STYLES IN MOBILE-MENU.SCSS -->
+        <section class="windermere-mobile-navbar">
+            <nav class="col-xs-12 hidden-md hidden-lg navbar">
+               <div class="mobile-toggle">
+                   <div id="drop-down-icon">
+                       <a href=""><i class="fa fa-bars"></i></a>
+                       <span><a href=""> Menu</a></span>
+                   </div>
+               </div>
+                <ul id="main-mobile-navbar">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Testimonials</a></li>
+                    <li id="services">
+                    <a href="#" id="mobile-service-dropdown">Services</a>
+                        <ul id="services-sub-menu-mobile">
+                            <li><a href="#">Personal Care</a></li>
+                            <li><a href="#">Companion Care</a></li>
+                            <li><a href="#">Pediatric Care</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>
+            </nav><!--/.col-xs-12 -->
+        </section><!--/.windmere-mobile-navbar -->
+        <!-- END OF THE MOBILE MENU -->
        <div id="header-contact-info" class="row">
          <div class="container">  
              <div id="header-phone" class="col-md-3">
@@ -42,8 +69,8 @@
                         </ul>
                    </div>
                 </section><!--/.section container-->
-               <section class="container windermere-navbar">
-                   <nav class="col-md-12 navbar">
+                <section class="container windermere-navbar">
+                   <nav class="col-md-12 hidden-sm hidden-xs navbar">
                        <ul id="main-navbar">
                            <li><a href="#">Home</a></li>
                            <li><a href="#">About Us</a></li>
@@ -60,8 +87,9 @@
                            <li><a href="#">Blog</a></li>
                        </ul>
                    </nav><!--/.windermere-navbar -->
-               </section><!--/.navbar section container -->
+                </section><!--/.navbar section container -->
             </div><!--/.container -->
+            <div class="clear-fix"></div>
         </div><!--/.row closure -->
        <div class="row">
            <div id="windermere-main-content" class="container">
