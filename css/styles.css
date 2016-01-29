@@ -13,6 +13,7 @@
     color: white; }
   .mobile-toggle .fa-bars {
     margin-top: 5px;
+    margin-left: 10px;
     padding: 10px 10px;
     color: white;
     border: 1px solid white;
@@ -161,7 +162,8 @@ p {
   font-size: 18pt;
   text-transform: uppercase; }
   #nav-box img#windermere-logo {
-    width: 300px; }
+    width: 300px;
+    z-index: 5; }
   #nav-box .contact-info {
     font-color: #171717;
     text-transform: uppercase;
@@ -307,6 +309,8 @@ footer {
       display: inline-block;
       float: left;
       padding: 0 10px; }
+    footer .footer-copyrighting ul a {
+      z-index: 10; }
 
 /* all styles associated with the testimonial in the footer */
 #slider {
@@ -322,7 +326,8 @@ footer {
 /* MEDIA QUERIES FOR THE SMALLEST OF DEVICES */
 @media only screen and (max-width: 768px) {
   #header-contact-info #header-phone {
-    text-align: center; }
+    text-align: center;
+    margin-left: 0; }
   #nav-box {
     background: white url(../img/hero.jpg) center center no-repeat;
     background-size: cover;

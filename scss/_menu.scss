@@ -1,5 +1,4 @@
 /* Navbar Styles and Backgrounds */
-
 #nav-box {
     background: $white url(../img/hero.jpg) center -270px no-repeat;
     background-size: cover;
@@ -10,6 +9,7 @@
     
     img#windermere-logo {
         width: 300px;
+        z-index: 5;
     }
     
     .contact-info {
