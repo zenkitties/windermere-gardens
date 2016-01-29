@@ -196,7 +196,8 @@ p {
       #nav-box .windermere-navbar ul#main-navbar li {
         display: inline-block; }
       #nav-box .windermere-navbar ul#main-navbar .fa-chevron-down {
-        color: #4f92c4; }
+        color: #4f92c4;
+        padding: 0 10px; }
       #nav-box .windermere-navbar ul#main-navbar a {
         color: #171717;
         padding: 12px 18px; }
@@ -210,7 +211,7 @@ p {
       width: auto;
       padding: 0;
       top: 32px;
-      left: 0;
+      left: 9px;
       -webkit-padding-start: 0; }
       #nav-box .windermere-navbar .dropdown-menu a {
         color: white !important;
@@ -332,10 +333,6 @@ footer {
     background: white url(../img/hero.jpg) center center no-repeat;
     background-size: cover;
     min-height: 400px; }
-    #nav-box img#windermere-logo {
-      width: 300px;
-      margin: 0 auto;
-      padding: 0; }
     #nav-box .contact-info {
       font-weight: bold;
       text-align: center;
@@ -364,7 +361,7 @@ footer {
     background-size: cover;
     height: 340px; }
     #nav-box img#windermere-logo {
-      width: 300px;
+      width: 250px;
       height: auto;
       margin: 0 auto; }
     #nav-box #windermere-main-content {

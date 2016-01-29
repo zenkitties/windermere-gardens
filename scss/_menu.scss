@@ -49,7 +49,8 @@
             }
             
             .fa-chevron-down {
-                color: $color-two; 
+                color: $color-two;
+                padding: 0 10px;
             }
             
             a {
@@ -70,7 +71,7 @@
             width: auto;
             padding: 0;
             top: 32px;
-            left: 0;
+            left: 9px;
             -webkit-padding-start: 0;
     
             a {
